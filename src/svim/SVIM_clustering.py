@@ -6,7 +6,8 @@ import logging
 from random import seed, sample
 from statistics import mean, stdev
 import numpy as np
-from scipy.cluster.hierarchy import linkage, fcluster
+from fastcluster import linkage
+from scipy.cluster.hierarchy import fcluster
 from edlib import align
 from pysam import FastaFile
 
