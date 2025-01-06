@@ -112,7 +112,7 @@ def draw_allele_plot(refs_11, alts_11, refs_10, alts_10, refs_00, alts_00, refs_
     plt.ylabel('Variant allele support')
     leg = plt.legend(frameon=True,
                fontsize="medium")
-    for lh in leg.legendHandles:
+    for lh in leg.legend_handles:
         lh.set_alpha(1.0)
 
     plt.tight_layout()
